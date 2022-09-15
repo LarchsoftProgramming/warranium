@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    
+    <title>Warranium Energy</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+        <!-- Owl Carousel Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Owl Carousel Js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="font/css/all.min.css">
+  <!-- Animation Link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header id="header">
+    <div id="scroll"></div>
+    
+      <nav class="navbar navbar-expand-lg navbar-light" id="nav-main-container">
+        <div class="container-fluid" id="nav-header-container"><a href="index.html">
+          <img title="#" data-aos="fade-right" data-aos-duration="1000" class="navbar-brand"id="ls-mobile-nav" src="img/logo.png" alt=""></a>
+                            
+          <button class="navbar-toggler" type="button"  data-bs-toggle="offcanvas" data-bs-target="#demo">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+          <button class="navbar-toggler" type="button"  data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- <a href="index.html">
+              <img data-aos="fade-right" data-aos-duration="1000" class="navbar-brand" src="img/logo.png" alt=""></a> -->
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sectors
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Water Management</a></li>
+                        <li><a class="dropdown-item" href="">Water Treatment Plants (WTP)</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater Treatment Plants (STP/ETP)</a></li>
+                        <li><a class="dropdown-item" href="">Rain Water Harvesting</a></li>
+                        <li><a class="dropdown-item" href="">Solar Power(Will be connected to WESol Domain)</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Plant Design & Process Engineering</a></li>
+                        <li><a class="dropdown-item" href="">Plant Constructions</a></li>
+                        <li><a class="dropdown-item" href="">Plant Commissioning</a></li>
+                        <li><a class="dropdown-item" href="">Repairs, Optimisation and Reﬁts</a></li>
+                        <li><a class="dropdown-item" href="">Operations and Maintenance (O&M)</a></li>
+                        <li><a class="dropdown-item" href="">Sampling, Testing and Environmental Monitoring</a></li>
+                        <li><a class="dropdown-item" href="">Technical and Management Consultancy</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Supply
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Boiler Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Cooling Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Reverse Osmosis (RO) Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">ElectroMechanical Equipment</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Water</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater</a></li>
+                        <li><a class="dropdown-item" href="">Rainwater Harvesting</a></li>
+                        <li><a class="dropdown-item" href="">Solar(Will be connected to WESol Domain)</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Pure Water</a></li>
+                        <li><a class="dropdown-item" href="">Clean Air</a></li>
+                        <li><a class="dropdown-item" href="">Green Energy</a></li>
+                        <li><a class="dropdown-item" href="">Books For All</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">About Warranium Energy</a></li>
+                        <li><a class="dropdown-item" href="">Mission</a></li>
+                        <li><a class="dropdown-item" href="">Vision</a></li>
+                        <li><a class="dropdown-item" href="">Core Values</a></li>
+                        <li><a class="dropdown-item" href="">Milestones</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="career.html">Overview</a></li>
+                        <li><a class="dropdown-item" href="career.html">Working With Us</a></li>
+                        <li><a class="dropdown-item" href="">Job Openings</a></li>
+                        <li><a class="dropdown-item" href="">Students</a></li>
+                        <li><a class="dropdown-item" href="">Trainees</a></li>
+                        <li><a class="dropdown-item" href="">FAQ</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">News</a></li>
+                        <li><a class="dropdown-item" href="">Images</a></li>
+                        <li><a class="dropdown-item" href="">Videos</a></li>
+                        <li><a class="dropdown-item" href="">Brochures</a></li>
+                        <li><a class="dropdown-item" href="">Social Media</a></li>
+                        <li><a class="dropdown-item" href="">Media Center</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="contact.html">Connect With Us</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Send Query</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+                      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                        <form class="form-inline my-2 my-lg-0" action="">
+                          <div class="search-btn">
+                            <input class="form-control" type="search" placeholder="Search Here" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                          </div>
+                        </form>                        
+                      </div>
+                      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+          
+  
+  
+          <!-- Mobile Header -->
+          <div class="offcanvas offcanvas-start" id="demo">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="bi bi-x-lg"></i></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                  <form class="form-inline" action="">
+                    <div class="search-btn">
+                      <input class="form-control" type="search" placeholder="Search Here" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </form>    
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sectors
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Water Management</a></li>
+                            <li><a class="dropdown-item" href="">Water Treatment Plants (WTP)</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater Treatment Plants (STP/ETP)</a></li>
+                            <li><a class="dropdown-item" href="">Rain Water Harvesting</a></li>
+                            <li><a class="dropdown-item" href="">Solar Power(Will be connected to WESol Domain)</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Plant Design & Process Engineering</a></li>
+                            <li><a class="dropdown-item" href="">Plant Constructions</a></li>
+                            <li><a class="dropdown-item" href="">Plant Commissioning</a></li>
+                            <li><a class="dropdown-item" href="">Repairs, Optimisation and Reﬁts</a></li>
+                            <li><a class="dropdown-item" href="">Operations and Maintenance (O&M)</a></li>
+                            <li><a class="dropdown-item" href="">Sampling, Testing and Environmental Monitoring</a></li>
+                            <li><a class="dropdown-item" href="">Technical and Management Consultancy</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Supply
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Boiler Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Cooling Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Reverse Osmosis (RO) Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">ElectroMechanical Equipment</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Water</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater</a></li>
+                            <li><a class="dropdown-item" href="">Rainwater Harvesting</a></li>
+                            <li><a class="dropdown-item" href="">Solar(Will be connected to WESol Domain)</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Programs
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Pure Water</a></li>
+                            <li><a class="dropdown-item" href="">Clean Air</a></li>
+                            <li><a class="dropdown-item" href="">Green Energy</a></li>
+                            <li><a class="dropdown-item" href="">Books For All</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">About Warranium Energy</a></li>
+                            <li><a class="dropdown-item" href="">Mission</a></li>
+                            <li><a class="dropdown-item" href="">Vision</a></li>
+                            <li><a class="dropdown-item" href="">Core Values</a></li>
+                            <li><a class="dropdown-item" href="">Milestones</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Careers
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="career.html">Overview</a></li>
+                            <li><a class="dropdown-item" href="career.html">Working With Us</a></li>
+                            <li><a class="dropdown-item" href="">Job Openings</a></li>
+                            <li><a class="dropdown-item" href="">Students</a></li>
+                            <li><a class="dropdown-item" href="">Trainees</a></li>
+                            <li><a class="dropdown-item" href="">FAQ</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Media
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">News</a></li>
+                            <li><a class="dropdown-item" href="">Images</a></li>
+                            <li><a class="dropdown-item" href="">Videos</a></li>
+                            <li><a class="dropdown-item" href="">Brochures</a></li>
+                            <li><a class="dropdown-item" href="">Social Media</a></li>
+                            <li><a class="dropdown-item" href="">Media Center</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="contact.html">Connect With Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Send Query</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <!-- Mobile Header -->
+  
+  
+        </nav>
+
+      </header>
+
+
+
+
+<!-- Top Image -->
+<div class="slide-container">
+    <div class="top-img">
+        <img src="img/10.jpg" alt="">
+
+        <div class="header-img-content">
+            <!-- <h3>Careers</h3> -->
+        </div>
+    </div>
+
+    <div class="top-link-content">
+        <a href="index.html">Home</a>&nbsp; <i class="fa-solid fa-angles-right"></i> &nbsp;
+        <a href="career.html">Career</a> 
+    </div>
+</div>
+
+
+
+<div class="page-tile py-5">
+  <h3><span>Career</span></h3>
+  <h2><span>WARRANIUM</span> ENERGY</h2>
+</div>
+
+
+<section class="">
+    <div class="container">
+
+        <div class="row py-5">
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+              <div class="career-head-title">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Careers</h3>
+              </div><br>
+
+                <div class="career-top-section">
+                    <p>At Warranium Energy your achievements impact more than your career and our company: Your achievements drive more 
+                        sustainable power for our planet, and you change the energy industry and our world for the better – because 
+                        renewable energy is all Warranium Energy does. Working for Warranium Energy, you are part of the global leader 
+                        in the high-tech world of renewable energy and you have international opportunities in a growing industry 
+                        committed to preserving our planet for future generations.</p>
+
+                    <ul type="none">
+                        <li>Engineering</li>
+                        <li>Management</li>
+                        <li>Development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1">
+          </div>
+
+          <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+              <div class="card career-img">
+                  <img src="img/13.jpg" alt="" class="rounded">
+              </div>
+          </div>
+
+</div>
+</div>
+</section>
+
+
+
+<section class="career-bg-section">
+  <div class="container">
+
+      <div class="row py-5">
+
+        <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+            <div class="card career-img">
+                <img src="img/14.jpg" alt="" class="rounded">
+            </div>
+        </div>
+
+          <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1">
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+            <div class="career-top-section">
+              <div class="career-head-title">
+                <i class="fa-solid fa-industry"></i>
+                <h3>Working with us</h3>
+              </div><br>
+
+                <p>We are well aware that our treatments and re-utilisations are not just powered by water and renewable energy. 
+                  We respect the commitment, knowledge and skill of the employees as one of our most vital assets. Warranium Energy is a 
+                  high-quality supplier and one of the technological leaders in the renewable energy and water treatment market. Our innovative 
+                  potential ensures us one of the leading positions in a market that will keep on developing of considerable growth for decades. 
+                  Three in five of our employees has an engineering background, joining forces with technicians and business experts from all 
+                  areas. The aim we share is to become even better – on both a professional and personal level..</p>
+                  
+            </div>
+        </div>
+
+</div>
+</div>
+</section>
+
+
+
+
+<section class="career-page" style="background: linear-gradient(#000000ab, #000000b0),url('img/14.jpg');
+background-repeat: no-repeat; background-size: cover;">
+
+  <div class="career-page-content">
+    <div class="title">Job Openings</div>
+      <div class="career-line"></div>
+      <p class="container">Click here to see our job openings It would be ideal if you note that most of our employment opportunities are 
+          posted in English.</p>
+      <p>If you do not receive the confirmation message within a couple of minutes after your registration, please check the spam folder 
+          in your email account to check that the confirmation email has not been delivered to that rather than your inbox. If the 
+          confirmation message has been delivered to your spam folder then please mark it ‘Not Spam’, which ought to enable any 
+          future messages to be sent directly to your inbox.</p>
+
+    <h4>Send your resume at: <a href="">careers@warranium.com</a></h4>
+  </div>
+</section>
+
+
+
+      <footer>
+        <div class="container">
+      
+          <div class="row">
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Company</h3>
+                <ul type="none">
+                  <li><a href="#">About Warranium Energy</a></li>
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="#">Vision</a></li>
+                  <li><a href="#">Core Values</a></li>
+                  <li><a href="#">Milestones</a></li>
+                  <li> <a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Sectors</h3>
+                <ul type="none">
+                  <li><a href="#">Wastewater Treatment Plants</a></li>
+                  <li><a href="#">Rain Water Harvesting</a></li>
+                  <li><a href="#">Solar Power</a></li>
+                  <li><a href="#">Solid Waste Management</a></li>
+                  <li><a href="#">Wind Turbine</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Services</h3>
+                <ul type="none">
+                  <li><a href="#">Plant Design & Process Engineering</a></li>
+                  <li><a href="#">Plant Constructions</a></li>
+                  <li><a href="#">Plant Commissioning</a></li>
+                  <li><a href="#">Repairs, Optimization and Refits</a></li>
+                  <li><a href="#">Operations and Maintenance</a></li>
+                  <li><a href="#">Sampling, Test and Envirnomental Monitoring</a></li>
+                  <li><a href="#">Technical and Management Consultance</a></li>
+              </ul>
+              </div>
+            </div>
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Programs</h3>
+                <ul type="none">
+                  <li><a href="#">Pure Water</a></li>
+                  <li><a href="#">Clean Air</a></li>
+                  <li><a href="#">Green Energy</a></li>
+                  <li><a href="#">Books For All</a></li>
+                </ul>
+              </div>
+            </div>
+      
+          </div>
+      <hr>
+      
+          <div class="row sec-layer">
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-layer">
+                <h3>News & Social</h3>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+              <div class="footer-layer">
+                <ul type="none">
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Media Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1">
+            </div> -->
+      
+      
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="footer-content">
+                <div class="footer-link">
+                  <a href="#" target="_blank"><img src="img/whatsapp.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/telegram.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/linkedin.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/twitter.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/facebook.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/instagram.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/youtube.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      
+        </div>
+  
+  
+        <div class="container-fluid copyright-section">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="footer-layer">
+                  <ul type="none">
+                    <li><a href="privacy.html" target="_blank">Privacy policy</a></li>
+                    <li><a href="terms.html" target="_blank"> Terms of Use</a></li>
+                    <li><a href="cookie.html" target="_blank">Cookie Policy</a></li>
+                    <li><a href="" target="_blank">Copyright ⓒ 2022. All Rights Reserved-Warranium Energy</a></li>
+                  </ul>
+              </div>
+              </div>
+  
+          <div class="col-md-3">
+            <div class="footer-layer">WE Care For NEXT!</div>
+          </div>
+        </div>
+      </div>
+  
+        <!-- <div class="copyright-section">
+          <div class="footer-layer">
+            <ul type="none">
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#"> Terms of Use</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li>Copyright ⓒ 2022. All Rights Reserved-Warranium Energy</li>
+            </ul>
+        </div>
+          <div class="footer-layer">WE Care For NEXT!</div>
+        </div> -->
+      </footer>
+      
+      
+            <script src="js/script.js"></script>
+  
+            <script src="js/count.js"></script>
+            <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+      </body>
+      </html>

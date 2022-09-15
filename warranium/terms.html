@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    
+    <title>Warranium Energy</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+        <!-- Owl Carousel Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Owl Carousel Js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="font/css/all.min.css">
+  <!-- Animation Link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header id="header">
+    <div id="scroll"></div>
+    
+      <nav class="navbar navbar-expand-lg navbar-light" id="nav-main-container">
+        <div class="container-fluid" id="nav-header-container"><a href="index.html">
+          <img title="#" data-aos="fade-right" data-aos-duration="1000" class="navbar-brand"id="ls-mobile-nav" src="img/logo.png" alt=""></a>
+                            
+          <button class="navbar-toggler" type="button"  data-bs-toggle="offcanvas" data-bs-target="#demo">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+          <button class="navbar-toggler" type="button"  data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- <a href="index.html">
+              <img data-aos="fade-right" data-aos-duration="1000" class="navbar-brand" src="img/logo.png" alt=""></a> -->
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sectors
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Water Management</a></li>
+                        <li><a class="dropdown-item" href="">Water Treatment Plants (WTP)</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater Treatment Plants (STP/ETP)</a></li>
+                        <li><a class="dropdown-item" href="">Rain Water Harvesting</a></li>
+                        <li><a class="dropdown-item" href="">Solar Power(Will be connected to WESol Domain)</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Plant Design & Process Engineering</a></li>
+                        <li><a class="dropdown-item" href="">Plant Constructions</a></li>
+                        <li><a class="dropdown-item" href="">Plant Commissioning</a></li>
+                        <li><a class="dropdown-item" href="">Repairs, Optimisation and Reﬁts</a></li>
+                        <li><a class="dropdown-item" href="">Operations and Maintenance (O&M)</a></li>
+                        <li><a class="dropdown-item" href="">Sampling, Testing and Environmental Monitoring</a></li>
+                        <li><a class="dropdown-item" href="">Technical and Management Consultancy</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Supply
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Boiler Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Cooling Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">Reverse Osmosis (RO) Water Treatment Chemicals</a></li>
+                        <li><a class="dropdown-item" href="">ElectroMechanical Equipment</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Water</a></li>
+                        <li><a class="dropdown-item" href="">Wastewater</a></li>
+                        <li><a class="dropdown-item" href="">Rainwater Harvesting</a></li>
+                        <li><a class="dropdown-item" href="">Solar(Will be connected to WESol Domain)</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">Pure Water</a></li>
+                        <li><a class="dropdown-item" href="">Clean Air</a></li>
+                        <li><a class="dropdown-item" href="">Green Energy</a></li>
+                        <li><a class="dropdown-item" href="">Books For All</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">About Warranium Energy</a></li>
+                        <li><a class="dropdown-item" href="">Mission</a></li>
+                        <li><a class="dropdown-item" href="">Vision</a></li>
+                        <li><a class="dropdown-item" href="">Core Values</a></li>
+                        <li><a class="dropdown-item" href="">Milestones</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="career.html">Overview</a></li>
+                        <li><a class="dropdown-item" href="career.html">Working With Us</a></li>
+                        <li><a class="dropdown-item" href="">Job Openings</a></li>
+                        <li><a class="dropdown-item" href="">Students</a></li>
+                        <li><a class="dropdown-item" href="">Trainees</a></li>
+                        <li><a class="dropdown-item" href="">FAQ</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="">News</a></li>
+                        <li><a class="dropdown-item" href="">Images</a></li>
+                        <li><a class="dropdown-item" href="">Videos</a></li>
+                        <li><a class="dropdown-item" href="">Brochures</a></li>
+                        <li><a class="dropdown-item" href="">Social Media</a></li>
+                        <li><a class="dropdown-item" href="">Media Center</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3"></div>
+                      <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                        <li><a class="dropdown-item" href="contact.html">Connect With Us</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Send Query</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                      </div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+                      <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                        <form class="form-inline my-2 my-lg-0" action="">
+                          <div class="search-btn">
+                            <input class="form-control" type="search" placeholder="Search Here" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                          </div>
+                        </form>                        
+                      </div>
+                      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+                    </div>
+                </div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+          
+  
+  
+          <!-- Mobile Header -->
+          <div class="offcanvas offcanvas-start" id="demo">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="bi bi-x-lg"></i></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                  <form class="form-inline" action="">
+                    <div class="search-btn">
+                      <input class="form-control" type="search" placeholder="Search Here" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                  </form>    
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sectors
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Water Management</a></li>
+                            <li><a class="dropdown-item" href="">Water Treatment Plants (WTP)</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater Treatment Plants (STP/ETP)</a></li>
+                            <li><a class="dropdown-item" href="">Rain Water Harvesting</a></li>
+                            <li><a class="dropdown-item" href="">Solar Power(Will be connected to WESol Domain)</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Plant Design & Process Engineering</a></li>
+                            <li><a class="dropdown-item" href="">Plant Constructions</a></li>
+                            <li><a class="dropdown-item" href="">Plant Commissioning</a></li>
+                            <li><a class="dropdown-item" href="">Repairs, Optimisation and Reﬁts</a></li>
+                            <li><a class="dropdown-item" href="">Operations and Maintenance (O&M)</a></li>
+                            <li><a class="dropdown-item" href="">Sampling, Testing and Environmental Monitoring</a></li>
+                            <li><a class="dropdown-item" href="">Technical and Management Consultancy</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Supply
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Boiler Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Cooling Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">Reverse Osmosis (RO) Water Treatment Chemicals</a></li>
+                            <li><a class="dropdown-item" href="">ElectroMechanical Equipment</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Water</a></li>
+                            <li><a class="dropdown-item" href="">Wastewater</a></li>
+                            <li><a class="dropdown-item" href="">Rainwater Harvesting</a></li>
+                            <li><a class="dropdown-item" href="">Solar(Will be connected to WESol Domain)</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Programs
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">Pure Water</a></li>
+                            <li><a class="dropdown-item" href="">Clean Air</a></li>
+                            <li><a class="dropdown-item" href="">Green Energy</a></li>
+                            <li><a class="dropdown-item" href="">Books For All</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">About Warranium Energy</a></li>
+                            <li><a class="dropdown-item" href="">Mission</a></li>
+                            <li><a class="dropdown-item" href="">Vision</a></li>
+                            <li><a class="dropdown-item" href="">Core Values</a></li>
+                            <li><a class="dropdown-item" href="">Milestones</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Careers
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="career.html">Overview</a></li>
+                            <li><a class="dropdown-item" href="career.html">Working With Us</a></li>
+                            <li><a class="dropdown-item" href="">Job Openings</a></li>
+                            <li><a class="dropdown-item" href="">Students</a></li>
+                            <li><a class="dropdown-item" href="">Trainees</a></li>
+                            <li><a class="dropdown-item" href="">FAQ</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Media
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="">News</a></li>
+                            <li><a class="dropdown-item" href="">Images</a></li>
+                            <li><a class="dropdown-item" href="">Videos</a></li>
+                            <li><a class="dropdown-item" href="">Brochures</a></li>
+                            <li><a class="dropdown-item" href="">Social Media</a></li>
+                            <li><a class="dropdown-item" href="">Media Center</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu megamenu" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                            <li><a class="dropdown-item" href="contact.html">Connect With Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Send Query</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                          </div>
+                        </div>
+                    </div>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          <!-- Mobile Header -->
+  
+  
+        </nav>
+
+      </header>
+
+
+
+
+
+
+<!-- Top Image -->
+<div class="slide-container">
+    <div class="top-img">
+        <img src="img/10.jpg" alt="">
+
+        <div class="header-img-content">
+            <!-- <h3>Privacy Policy</h3> -->
+        </div>
+    </div>
+
+    <div class="top-link-content">
+        <a href="index.html">Home</a>&nbsp; <i class="fa-solid fa-angles-right"></i> &nbsp;
+        <a href="terms.html">Terms & Conditions</a> 
+    </div>
+</div>
+
+
+
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="row">
+        <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+
+            <div class="page-tile">
+                <h3><span>Terms</span> & Conditions</h3>
+                <h2><span>WARRANIUM</span> ENERGY</h2>
+            </div>
+
+        <div class="privacy-content">
+            <p>Warranium Energy Company and its wholly and majority-owned entities (collectively, the “Warranium Energy” or “WESol”), 
+                respect your privacy concerns.</p>
+            <h3>Introduction</h3>
+            <ol>
+                <li>Warranium Energy (WE) ("us", "we", or "our") operates the <a href="">www.warranium.com</a> website (the “services”). </li>
+                <li>For these Terms & Conditions, wherever the context so requires "You" or "User" shall mean any natural or legal person
+                        who has agreed to become a donor, acceptor, volunteer or exchanger on the website by providing Registration Data
+                        while registering on the website as registered user and volunteers using the computer systems.</li>
+                <li>This page informs you of our Terms & Conditions regarding the collection, use, and limitations when you use our 
+                    services and the choices you have associated with that data.</li>
+                <li>If you have any question about these Terms & Conditions, please contact Warranium Energy at <a href="">info@warranium.com</a>.</li>
+                <li>Please read the following carefully to understand our Terms & Conditions regarding our services. We may update these
+                        Terms & Conditions from time to time without notice to you, so please check it regularly.</li>
+            </ol>
+        </div>
+        
+
+        <div class="privacy-content">
+
+            <h3>Copyright; Permitted Uses; Restrictions on Use</h3>
+            <p>Materials available on the Warranium Energy website are protected by copyright law © 2019-2022 Warranium Energy. All Rights 
+            Reserved. Images, materials, software and information may not be copied, downloaded or reproduced for commercial purposes 
+            without our express written permission. Other copyrights that appear on our website are the property of the respective 
+            owners. Access to and use of the Warranium Energy website is provided subject to the Terms and Conditions set forth below. 
+            These Terms and Conditions contain warranty disclaimers, limitations of liability, linking guidelines and restrictions
+                on use.</p>
+            </div>
+
+
+        <div class="privacy-content">
+
+            <h3>Trademarks</h3>
+            <p>Listed below are the trademarks of <a href="">Warranium Energy</a>. Nothing contained on this website should be construed as 
+                granting any license or right to use any trademark display on this site without the express written permission of Warranium 
+                Energy. Other icons, trademarks, trade dress or other commercial symbols that appear on the Warranium Energy website are the 
+                property of respective owners.</p>
+
+        <ul>
+            <li><span>WARRANIUM ENERGY</span> is a registered trademark of Warranium Energy.</li>
+            <li><span>WE Care for NEXT!</span> is a registered trademark of Warranium Energy.</li>
+            <li><a href="">Warranium Energy' logo</a> is a registered trademark of Warranium Energy.</li>
+        </ul>
+            </div>
+
+        
+        <div class="privacy-content">
+
+            <h3>Terms & Conditions</h3>
+            <p>Warranium Energy provides all information on the <a href="">Warranium Energy</a> World-Wide Web site (together with the underlying source 
+                HTML ﬁles that implement the hypertext features, this "Site") exclusively under the following Terms & Conditions:</p>
+
+            
+            <ol>
+                <li><h4>Ownership, License & Restrictions on Use</h4>
+                <ul>
+                    <li>All rights, titles, and interests (including all copyrights, trademarks, and other intellectual property rights) in 
+                        this site are valuable, exclusive property of Warranium Energy. Also, the names, images, pictures, logos, and icons 
+                        identifying Warranium Energy programs and services in India are proprietary marks of Warranium Energy. Except as 
+                        expressly provided below, nothing contained herein shall be construed as conferring any license or right, by 
+                        implication, estoppel, or otherwise, under the copyright or other intellectual property rights.</li>
+                    <li>You are hereby granted a non-exclusive, non-transferable, limited license to view, reproduce, print, and distribute
+                         insigniﬁcant portions of materials retrieved from this Site provided:</li>
+                    <ol>
+                        <li>It is used only for informational, non-commercial purposes; and</li>
+                        <li>You do not remove or obscure the copyright notice or other notices. Except as expressly provided above, no part 
+                            of this site, including but not limited to materials retrieved therefrom and the underlying code, may be 
+                            reproduced, republished, copied, transmitted, or distributed in any form or by any means. In no event shall
+                             materials from this site be stored in any information storage and retrieval system without prior written 
+                             permission from Warranium Energy.</li>
+                    </ol>
+                    <li>Use, duplication, or disclosure by or for the  Government of India is subject to restrictions</li>
+                </ul>
+                </li>
+
+
+                <li><h4>Uploading Material to the Site</h4>
+                <ul>
+                    <li>Any content you upload to the website will be considered nonconﬁdential and non-proprietary, and Warranium Energy has the right to use, copy, distribute and disclose to third parties any such content for any purpose. We also have the right to disclose your identity to any third party who is claiming that any content posted or uploaded by you to the site constitutes a violation of their intellectual property rights or their right to privacy.</li>
+                    <li>Warranium Energy will not be responsible, or liable to any third party, for the content or accuracy of any materials posted by you or any other user of the Site.</li>
+                    <li>Warranium Energy has the right to remove any content or posting you make on the website, if, in our opinion, such material is not suitable for the site.</li>
+                </ul>
+                </li>
+
+
+
+                <li><h4>Links To Third Party Sites</h4>
+                    <p>You may provide hot links to this Site provided:</p>
+                <ul>
+                    <li>You do not remove or obscure, by framing or otherwise, advertisements, the copyright notice, or other notices on this 
+                        Site;</li>
+                    <li>You give Warranium Energy notice of such link by sending an e-mail to <a href="">info@warranium.com</a>; and</li>
+                    <li>You discontinue providing hot links to this Site if notiﬁed by Warranium Energy.</li>
+                </ul>
+                </li>
+
+
+                <li><h4>Disclaimers</h4>
+                <ul>
+                    <li>This site is provided on an "as is", "as available" basis and Warranium Energy expressly disclaims all warranties, including the warranties of merchantability, ﬁtness for a particular purpose, and non-infringement;</li>
+                    <li>Warranium Energy disclaims all responsibility for any loss, injury, claim, liability, or damage of any kind resulting 
+                        from, arising out of, or any way related to;
+                    <ul>
+                        <li>Any errors in or omissions from this site and its content, including but not limited to technical inaccuracies 
+                            and typographical errors;</li>
+                        <li>Any third-party websites or the content therein directly or indirectly accessed through hot-links in this site, 
+                            including but not limited to any errors in or omissions therefrom;</li>
+                        <li>The unavailability of this site or any portion thereof;</li>
+                        <li>Your use of this site; or</li>
+                        <li>Your use of any equipment or software in connection with this site.</li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+
+
+        <li><h4>Limitation of Liability</h4>
+            <p>A covered party (as deﬁned below) shall not be liable for any direct, indirect, incidental, special, or consequential 
+                damages of any kind whatsoever (including, without limitation, attorneys' fees and lost proﬁts or savings) in any way due 
+                to, resulting from, or arising in connection with this site, including its content, regardless of any negligence of any 
+                covered party. "Covered Party" means Warranium Energy, its aﬃliates, and any oﬃcer, director, employee, volunteer, 
+                agent, successor, or assign of Warranium Energy or its aﬃliates.</p>
+        </li>
+
+
+        <li><h4>Product & Service Availability in Foreign Countries</h4>
+            <p>This site may contain references or cross-references to Warranium Energy programs and services that are not available in a 
+            country other than India.</p>
+        </li>
+
+
+        <li><h4>Changes to Site and these Terms & Conditions</h4>
+            <p>This site and these Terms & Conditions may be changed by Warranium Energy with or without prior notice. Please review these 
+                Terms & Conditions regularly for changes. Continued use of this site following any change constitutes your acceptance of 
+                the change.</p>
+        </li>
+
+
+        <li><h4>Entire Agreement; Severability</h4>
+            <p>These Terms & Conditions incorporate by reference any notices contained on this site and constitute the entire agreement 
+                concerning your access to and use of this site. If any provision of these Terms & Conditions is unlawful, void, or 
+                unenforceable, then that provision shall be deemed severable from the remaining provisions and shall not aﬀect their 
+                validity and enforceability.</p>
+        </li>
+
+
+        <li><h4>Termination</h4>
+            <p>This User Agreement and the license rights granted hereunder shall remain in full force and eﬀect unless terminated or 
+            cancelled for any of the following reasons:</p>
+            <ul>
+                <li>Immediately by Warranium Energy for any unauthorised access or use by you;</li>
+                <li> Immediately by Warranium Energy if you assign or transfer (or attempt the same) any rights granted to you under this agreement;</li>
+                <li>Immediately, if you violate any of the other terms and conditions of this User Agreement. Termination or cancellation of this agreement shall not aﬀect any right or relief to which Warranium Energy may be entitled. Upon termination of this User Agreement, all rights granted to you will terminate and revert to Warranium Energy;</li>
+                <li>IF THESE TERMS AND CONDITIONS ARE NOT ACCEPTABLE IN FULL, YOU MUST IMMEDIATELY TERMINATE YOUR USE OF THIS SITE.</li>
+            </ul>
+        </li>
+
+
+        <li><h4>Governing Laws in Case of Dispute; Jurisdiction</h4>
+            <p>These Terms & Conditions are exclusively based on and subject to Indian Law as they apply to agreements made and solely performed therein. Disputes arising hereunder shall be exclusively subject to the jurisdiction and venue of courts in Delhi, India in all disputes arising out of or relating to the use of this website.</p>
+            <p>Use of this website is unauthorised in any jurisdiction that does not give eﬀect to all provisions of these terms and conditions, including without limitation this paragraph.</p>
+        </li>
+
+            </ol>
+            </div>
+
+
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2"></div>
+    </div>
+
+    </div>
+</section>
+
+
+
+      <footer>
+        <div class="container">
+      
+          <div class="row">
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Company</h3>
+                <ul type="none">
+                  <li><a href="#">About Warranium Energy</a></li>
+                  <li><a href="#">Mission</a></li>
+                  <li><a href="#">Vision</a></li>
+                  <li><a href="#">Core Values</a></li>
+                  <li><a href="#">Milestones</a></li>
+                  <li> <a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Sectors</h3>
+                <ul type="none">
+                  <li><a href="#">Wastewater Treatment Plants</a></li>
+                  <li><a href="#">Rain Water Harvesting</a></li>
+                  <li><a href="#">Solar Power</a></li>
+                  <li><a href="#">Solid Waste Management</a></li>
+                  <li><a href="#">Wind Turbine</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Services</h3>
+                <ul type="none">
+                  <li><a href="#">Plant Design & Process Engineering</a></li>
+                  <li><a href="#">Plant Constructions</a></li>
+                  <li><a href="#">Plant Commissioning</a></li>
+                  <li><a href="#">Repairs, Optimization and Refits</a></li>
+                  <li><a href="#">Operations and Maintenance</a></li>
+                  <li><a href="#">Sampling, Test and Envirnomental Monitoring</a></li>
+                  <li><a href="#">Technical and Management Consultance</a></li>
+              </ul>
+              </div>
+            </div>
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-content">
+                <h3>Programs</h3>
+                <ul type="none">
+                  <li><a href="#">Pure Water</a></li>
+                  <li><a href="#">Clean Air</a></li>
+                  <li><a href="#">Green Energy</a></li>
+                  <li><a href="#">Books For All</a></li>
+                </ul>
+              </div>
+            </div>
+      
+          </div>
+      <hr>
+      
+          <div class="row sec-layer">
+      
+      
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+              <div class="footer-layer">
+                <h3>News & Social</h3>
+              </div>
+            </div>
+      
+            <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+              <div class="footer-layer">
+                <ul type="none">
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Media Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- <div class="col-sm-12 col-md-1 col-lg-1 col-xl-1">
+            </div> -->
+      
+      
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="footer-content">
+                <div class="footer-link">
+                  <a href="#" target="_blank"><img src="img/whatsapp.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/telegram.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/linkedin.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/twitter.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/facebook.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/instagram.png" alt=""></a>
+                  <a href="#" target="_blank"><img src="img/youtube.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      
+        </div>
+  
+  
+        <div class="container-fluid copyright-section">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="footer-layer">
+                  <ul type="none">
+                    <li><a href="privacy.html" target="_blank">Privacy policy</a></li>
+                    <li><a href="terms.html" target="_blank"> Terms of Use</a></li>
+                    <li><a href="cookie.html" target="_blank">Cookie Policy</a></li>
+                    <li><a href="" target="_blank">Copyright ⓒ 2022. All Rights Reserved-Warranium Energy</a></li>
+                  </ul>
+              </div>
+              </div>
+  
+          <div class="col-md-3">
+            <div class="footer-layer">WE Care For NEXT!</div>
+          </div>
+        </div>
+      </div>
+  
+        <!-- <div class="copyright-section">
+          <div class="footer-layer">
+            <ul type="none">
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#"> Terms of Use</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li>Copyright ⓒ 2022. All Rights Reserved-Warranium Energy</li>
+            </ul>
+        </div>
+          <div class="footer-layer">WE Care For NEXT!</div>
+        </div> -->
+      </footer>
+      
+      
+            <script src="js/script.js"></script>
+  
+            <script src="js/count.js"></script>
+            <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+      </body>
+      </html>
